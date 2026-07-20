@@ -1,0 +1,403 @@
+# Restaurant Menu Database
+
+## Restaurant Information
+
+Restaurant Name: Jungle Foods
+Description: A multi-cuisine restaurant serving Mandi, Biriyani, Chinese Foods, Shawarma, Indian Breads, Beverages, Desserts, Snacks and more.
+
+---
+
+# MENU STRUCTURE
+
+## 1. MANDI
+
+### Chicken Mandi
+
+#### Flavours
+
+| Item | Full Piece | Half Piece | Quarter Piece |
+|------|-----------:|-----------:|--------------:|
+| BBQ Chicken Mandi | ₹440 | ₹220 | ₹120 |
+| Al Faham Chicken Mandi | ₹440 | ₹220 | ₹120 |
+| Grill Chicken Mandi | ₹440 | ₹220 | ₹120 |
+| Tandoori Chicken Mandi | ₹440 | ₹220 | ₹120 |
+
+#### Family Pack
+
+| Portion | Serves | Price |
+|---------|-------:|------:|
+| Full | 4 Persons | ₹900 |
+| Half | 2 Persons | ₹450 |
+| Quarter | 1 Person | ₹230 |
+
+Extras
+
+- Extra Person – ₹90
+- Extra Chicken Piece – ₹130
+
+### Other Mandi
+
+| Item | Price |
+|------|------:|
+| Mutton Mandi | Market Price |
+| Prawn Mandi | Market Price |
+
+---
+
+# 2. BIRIYANI
+
+## Non Veg
+
+| Item | Price |
+|------|------:|
+| Bucket Biriyani (Full) | ₹999 |
+| Bucket Biriyani (Half) | ₹499 |
+| Chicken Biriyani | ₹120 |
+| Chicken 65 Biriyani | ₹150 |
+| Mutton Biriyani | ₹210 |
+| Egg Biriyani | ₹90 |
+| Prawn Biriyani | ₹180 |
+
+## Veg
+
+| Item | Price |
+|------|------:|
+| Plain Biriyani | ₹80 |
+
+---
+
+# 3. CHINESE FOODS
+
+## Fried Rice
+
+### Non Veg
+
+| Item | Price |
+|------|------:|
+| Chicken Fried Rice | ₹110 |
+| Egg Fried Rice | ₹90 |
+| Schezwan Chicken Fried Rice | ₹140 |
+| Prawn Fried Rice | ₹150 |
+| Squid Fried Rice | Market Price |
+
+### Veg
+
+| Item | Price |
+|------|------:|
+| Veg Fried Rice | ₹80 |
+| Mushroom Fried Rice | ₹130 |
+| Paneer Fried Rice | ₹130 |
+| Gobi Fried Rice | ₹110 |
+| Ghee Rice | ₹140 |
+
+---
+
+## Noodles
+
+**Same pricing as Fried Rice**
+
+### Non Veg
+
+| Item | Price |
+|------|------:|
+| Chicken Noodles | ₹110 |
+| Egg Noodles | ₹90 |
+| Schezwan Chicken Noodles | ₹140 |
+| Prawn Noodles | ₹150 |
+| Squid Noodles | Market Price |
+
+### Veg
+
+| Item | Price |
+|------|------:|
+| Veg Noodles | ₹80 |
+| Mushroom Noodles | ₹130 |
+| Paneer Noodles | ₹130 |
+| Gobi Noodles | ₹110 |
+| Ghee Noodles | ₹140 |
+
+---
+
+## Chicken Gravy
+
+| Item | Price |
+|------|------:|
+| Chicken Masala | ₹200 |
+| Chicken Chilli Gravy | ₹180 |
+| Chicken Manchurian | ₹180 |
+| Chicken Kadai Masala (Full) | ₹200 |
+| Chicken Kadai Masala (Half) | ₹110 |
+| Chicken Malabar | ₹200 |
+| Butter Chicken | ₹220 |
+| Chicken Chettinad | ₹220 |
+| Chicken Tikka Masala | ₹200 |
+| Chicken Hyderabad | ₹200 |
+| Chicken Punjabi | ₹210 |
+| Chicken Schezwan | ₹180 |
+
+---
+
+## Veg Gravy
+
+| Item | Price |
+|------|------:|
+| Mushroom Masala | ₹140 |
+| Mushroom Pepper Dry | ₹130 |
+| Paneer Butter Gravy | ₹140 |
+| Paneer Manchurian | ₹140 |
+| Gobi Manchurian | ₹120 |
+| Gobi Masala | ₹140 |
+| Chilli Mushroom | ₹140 |
+| Chilli Gobi | ₹140 |
+
+---
+
+## Veg Dry
+
+| Item | Price |
+|------|------:|
+| Mushroom Pepper Dry | ₹130 |
+| Mushroom 65 | ₹120 |
+
+---
+
+## Chicken Dry
+
+| Item | Price |
+|------|------:|
+| Dragon Chicken | ₹220 |
+| Chicken 65 (Full) | ₹160 |
+| Chicken 65 (Half) | ₹80 |
+| Boneless Chicken 65 (Full) | ₹180 |
+| Boneless Chicken 65 (Half) | ₹90 |
+| Chicken Lollipop | ₹200 |
+| Chicken Manchurian | ₹200 |
+| Chicken Chilli Dry | ₹200 |
+| Chicken Pepper Dry | ₹210 |
+| Chicken Ginger | ₹200 |
+| Chicken Garlic | ₹200 |
+| Pallipalayam Chicken | Market Price |
+| Drumstick Chicken Lollipop | Market Price |
+| Chicken Sticks | Market Price |
+| Chicken 555 | ₹220 |
+| Chicken 777 | ₹220 |
+
+---
+
+# 4. PAROTTA
+
+| Item | Price |
+|------|------:|
+| Parotta | ₹10 |
+| Coin Parotta | ₹6 |
+| Bun Parotta | ₹35 |
+| Killi Parotta | ₹120 |
+| Nool Parotta | ₹30 |
+| Chilli Parotta | ₹80 |
+| Chicken Chilli Parotta | ₹100 |
+| Kothu Parotta | ₹100 |
+| Chicken Kothu Parotta | ₹130 |
+| Egg Kothu Parotta | ₹80 |
+| Egg Laapa | ₹30 |
+| Double Egg Laapa | ₹50 |
+| Veechu Parotta | ₹20 |
+| Tandoori Parotta | ₹30 |
+
+---
+
+# 5. CHAPATHI & NAAN
+
+| Item | Price |
+|------|------:|
+| Plain Chapathi | ₹30 |
+| Butter Chapathi | ₹30 |
+| Plain Naan | ₹30 |
+| Butter Naan | ₹40 |
+| Garlic Naan | ₹40 |
+| Kulcha | ₹25 |
+
+---
+
+# 6. SHAWARMA
+
+| Item | Price |
+|------|------:|
+| Chicken Shawarma Roll | ₹90 |
+| Chicken Shawarma Plate | ₹110 |
+| Tandoori Shawarma | ₹110 |
+
+---
+
+# 7. EGG ITEMS
+
+| Item | Price |
+|------|------:|
+| Omelette | ₹20 |
+| Half Boil | ₹15 |
+| Kalaki | ₹20 |
+| Egg Podi Mass | ₹30 |
+| Mutta Chutney | ₹50 |
+
+---
+
+# 8. MILKSHAKES
+
+| Item | Price |
+|------|------:|
+| Oreo | ₹80 |
+| Chocoscotch Holics | ₹80 |
+| Banana Lovers | ₹80 |
+| Mango Strawberry | ₹70 |
+| Snickers | ₹90 |
+| Bournvita | ₹100 |
+| Mixed Fruit Punch | ₹60 |
+| Butterscotch | ₹80 |
+| Kesar Badam | ₹80 |
+| Green Pista | ₹80 |
+| Choco Mud | ₹80 |
+| Vanilla Apple Berg | ₹70 |
+| Dry Fruit | ₹100 |
+| KitKat Magic | ₹90 |
+
+---
+
+# 9. PROTEIN SHAKE
+
+| Item | Price |
+|------|------:|
+| Ultimate Protein Shake | ₹120 |
+
+---
+
+# 10. ICE CREAM
+
+| Item | Price |
+|------|------:|
+| Vanilla | ₹50 |
+| Strawberry | ₹60 |
+| Chocolate | ₹60 |
+| Mango | ₹70 |
+| Vanilla Choco Chips | ₹80 |
+| Butterscotch | ₹80 |
+| Black Currant | ₹100 |
+| Dry Fruit | ₹120 |
+| Pista | ₹70 |
+
+---
+
+# 11. FALOODA
+
+| Item | Price |
+|------|------:|
+| Falooda | ₹80 |
+| Malai Kulfi Falooda | ₹90 |
+| Badami Falooda | ₹120 |
+| Dry Fruit Falooda | ₹120 |
+| Jungle Special Falooda | ₹150 |
+
+---
+
+# 12. FRUIT SALAD
+
+| Item | Price |
+|------|------:|
+| Royal Fruit Salad | ₹80 |
+| Fruit Salad Ice Cream | ₹100 |
+
+---
+
+# 13. FRESH JUICE
+
+| Item | Price |
+|------|------:|
+| Watermelon | ₹40 |
+| Pineapple | ₹50 |
+| Grape | ₹50 |
+| Orange | ₹60 |
+| Pomegranate | ₹80 |
+| Apple | ₹70 |
+| Kiwi | ₹80 |
+| Sathukudi | ₹50 |
+| Kirni | ₹40 |
+| Lemon | ₹30 |
+| Lemon Soda | ₹30 |
+| Lemon Soda (Sweet & Salt) | ₹30 |
+| Lemon Mint | ₹30 |
+
+---
+
+# 14. MOJITO
+
+| Item | Price |
+|------|------:|
+| Blue Mojito | ₹80 |
+| Green Apple Mojito | ₹80 |
+| Black Currant Mojito | ₹80 |
+| Mint Mojito | ₹80 |
+| Lime Mojito | ₹80 |
+| Blueberry Mojito | ₹80 |
+
+---
+
+# 15. COLD COFFEE
+
+| Item | Price |
+|------|------:|
+| Cold Coffee | ₹80 |
+| Hard Rock | ₹90 |
+| Coffee On Rocks | ₹80 |
+| Chocolate | ₹80 |
+| Mud Coffee | ₹80 |
+| Strawberry | ₹70 |
+
+---
+
+# 16. STREET FOOD
+
+| Item | Price |
+|------|------:|
+| Pani Poori | ₹30 |
+| Masala Poori | ₹40 |
+| Bhel Poori | ₹40 |
+| Curd Poori | ₹40 |
+| Mushroom Fry | ₹40 |
+
+---
+
+# 17. FROZEN SNACKS
+
+| Item | Price |
+|------|------:|
+| French Fries | ₹69 |
+| Fish Fingers (4 pcs) | ₹79 |
+| Chicken Wings (6 pcs) | ₹99 |
+| Chicken Nuggets (5 pcs) | ₹99 |
+| Broasted Chicken (1 pc) | ₹99 |
+| Smilies (5 pcs) | ₹60 |
+| Mushroom Momos (4 pcs) | ₹70 |
+| Chicken Momos (5 pcs) | ₹99 |
+| Veg Roll (4 pcs) | ₹80 |
+
+---
+
+# 18. SNACKS
+
+## Bread
+
+| Item | Price |
+|------|------:|
+| Bread Omelette | ₹40 |
+
+## Sandwich
+
+| Item | Price |
+|------|------:|
+| Tandoori Sandwich | ₹60 |
+| Cheese Sandwich | ₹50 |
+| Egg Sandwich | ₹50 |
+
+---
+
+# 19. SEAFOOD
+
+Reserved for future menu additions.

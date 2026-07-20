@@ -1,0 +1,324 @@
+Semma da machi. Nee Cursor AI, Claude, GPT, Lovable, Bolt, Windsurf edhula paste pannalum **professional full-stack level website** generate panna maari oru **GCAO Prompt** ready panniruken.
+
+---
+
+# GCAO Prompt – Jungle Foods Restaurant Website
+
+## GOAL
+
+Develop a **modern, responsive, and premium restaurant website** for **Jungle Foods** using only **HTML5, CSS3, and Vanilla JavaScript**. The website should provide an excellent customer experience while also including a secure **Admin Dashboard** where the restaurant owner can manage all restaurant content through complete CRUD (Create, Read, Update, Delete) operations. The website should be designed as a real-world production-ready restaurant website with a unique jungle-inspired branding that reflects the restaurant's identity and can be upgraded to a backend in the future without changing the frontend architecture.
+
+---
+
+## CONTEXT
+
+The restaurant name is **Jungle Foods**, a multi-cuisine restaurant whose signature dish is **Chicken Mandi**. The restaurant branding is based on a **Jungle Theme**, using dark green, black, wooden textures, golden accents, and nature-inspired elements. The logo contains a panda chef holding a bowl of mandi, so the overall UI should follow the same branding style with premium animations and a modern user experience.
+
+The website should **not** feel like a generic restaurant template. Every section should follow the Jungle Foods brand identity.
+
+The website should contain the following pages:
+
+* Home
+* Menu
+* About Us
+* Gallery
+* Customer Reviews
+* Contact
+* Admin Login
+* Admin Dashboard
+
+The homepage should include:
+
+* Hero Banner
+* Restaurant Introduction
+* Signature Food Section (Chicken Mandi Variants)
+* Why Choose Jungle Foods
+* Gallery Preview
+* Customer Reviews
+* Contact Section
+* Footer
+
+Do **not** include a "Today's Special" section.
+
+Instead of "Best Selling Foods", create a premium **Signature Mandi** section showcasing:
+
+* BBQ Chicken Mandi
+* Al Faham Chicken Mandi
+* Grill Chicken Mandi
+* Tandoori Chicken Mandi
+
+The menu should be completely dynamic and categorized using the provided restaurant menu database.
+
+Categories include:
+
+* Mandi
+* Biriyani
+* Chinese Foods
+* Parotta
+* Chapathi & Naan
+* Shawarma
+* Egg Items
+* Milkshakes
+* Protein Shake
+* Ice Cream
+* Falooda
+* Fruit Salad
+* Fresh Juice
+* Mojito
+* Cold Coffee
+* Street Food
+* Frozen Snacks
+* Snacks
+* Seafood
+
+Each food card should display:
+
+* Food Image
+* Food Name
+* Description
+* Category
+* Price
+* Availability
+* Customer Rating
+* Add to Cart Button
+
+For items with **Market Price**, display:
+
+**"Call for Today's Price"**
+
+instead of showing a numeric value.
+
+The Menu page should include:
+
+* Live Search
+* Category Sidebar
+* Category Filters
+* Veg / Non-Veg Filter
+* Available / Out of Stock Filter
+* Smooth Scroll Navigation
+* Responsive Food Cards
+
+Customers should be able to:
+
+* Browse Menu
+* Search Foods
+* Filter Foods
+* Add Items to Cart
+* Increase Quantity
+* Decrease Quantity
+* Remove Items
+* View Total
+* Checkout
+* Submit Reviews
+* View Gallery
+* Contact Restaurant
+
+The checkout page should collect:
+
+* Customer Name
+* Mobile Number
+* Delivery Address
+* Order Notes
+
+Instead of integrating payment gateways, create a **WhatsApp Order System** where clicking **Place Order** automatically generates a formatted order message and opens WhatsApp with the restaurant number.
+
+The formatted message should include:
+
+* Customer Name
+* Mobile Number
+* Address
+* Ordered Items
+* Quantity
+* Total Price
+* Additional Notes
+
+The Contact section should provide clickable actions instead of plain text.
+
+Include:
+
+* Call Now
+* WhatsApp Chat
+* Instagram Profile
+* Google Maps Location
+* Email
+
+All buttons should directly open their respective applications.
+
+Create floating action buttons that remain visible while scrolling:
+
+* Call
+* WhatsApp
+* Instagram
+* Location
+
+The Gallery page should display restaurant ambience and food images with a modern masonry layout and lightbox preview.
+
+The Customer Reviews page should allow users to submit ratings and reviews.
+
+Admin moderation should be available later.
+
+---
+
+The Admin section should be completely separate from the customer website.
+
+Create a secure Admin Login page.
+
+After successful login, redirect to an Admin Dashboard.
+
+The dashboard should contain a modern sidebar with:
+
+* Dashboard
+* Menu Management
+* Orders
+* Reviews
+* Gallery
+* Contact Details
+* Social Media
+* Settings
+* Logout
+
+The Menu Management module should provide complete CRUD functionality.
+
+The owner must be able to:
+
+* Add Food
+* Edit Food
+* Delete Food
+* Search Food
+* Upload Food Image
+* Change Price
+* Change Availability
+* Mark Featured Items
+* Mark New Arrivals
+
+The form should include:
+
+* Food Name
+* Category
+* Description
+* Price
+* Market Price Toggle
+* Availability
+* Image Upload
+
+The Orders section should display:
+
+* Order ID
+* Customer Name
+* Phone Number
+* Ordered Items
+* Total Amount
+* Status
+
+Order Status options:
+
+* Pending
+* Accepted
+* Preparing
+* Ready
+* Delivered
+* Cancelled
+
+The Reviews section should allow the owner to:
+
+* View Reviews
+* Delete Reviews
+* Reply to Reviews
+
+The Gallery section should allow:
+
+* Upload Image
+* Edit Image
+* Delete Image
+
+The Contact Management section should allow updating:
+
+* Phone Number
+* WhatsApp Number
+* Instagram Link
+* Email
+* Address
+* Google Maps Link
+* Opening Hours
+
+The Settings page should allow:
+
+* Change Logo
+* Change Hero Banner
+* Change Restaurant Name
+* Change Password
+
+Since only HTML, CSS, and JavaScript are used, store all CRUD data using **Local Storage** with a clean structure so that the project can later be migrated easily to Node.js, Express.js, and MongoDB without changing the frontend.
+
+The complete website should be:
+
+* Fully Responsive
+* Mobile First
+* Tablet Optimized
+* Desktop Optimized
+* SEO Friendly
+* Accessible
+* Smooth Animated
+* Premium UI/UX
+* Fast Loading
+
+Use:
+
+* HTML5 Semantic Elements
+* CSS Variables
+* Flexbox
+* CSS Grid
+* Glassmorphism
+* Modern Cards
+* Hover Effects
+* Smooth Scroll
+* Lazy Loading
+* Responsive Navigation
+* Scroll Animations
+* Loading Screen
+* Dark Jungle Theme
+
+Use a color palette inspired by the Jungle Foods brand:
+
+* Forest Green
+* Black
+* Golden Yellow
+* White
+* Wooden Brown
+
+The overall design should communicate:
+
+**Premium • Modern • Jungle • Arabian • Family Friendly**
+
+---
+
+## ACTION
+
+Build the complete project using a modular folder structure.
+
+Generate:
+
+* HTML pages
+* CSS files
+* JavaScript modules
+* Assets folder
+* Images folder placeholders
+* Local Storage data structure
+* CRUD modules
+* Cart logic
+* Search functionality
+* Filters
+* Review system
+* WhatsApp order generator
+* Admin authentication
+* Dashboard UI
+* Responsive layouts
+* Reusable components
+
+Write clean, scalable, reusable, and well-commented code following industry best practices.
+
+---
+
+## OUTPUT EXPECTATION
+
+Deliver a production-quality restaurant website for **Jungle Foods** that looks unique, premium, and professional rather than template-based. Every page should be fully responsive, visually consistent with the Jungle Foods brand, and include smooth animations, intuitive navigation, and reusable components. The codebase should be clean, modular, and easy to maintain, with separate HTML, CSS, and JavaScript files organized in a scalable folder structure. All customer-facing features and admin CRUD operations should function using Local Storage, while the architecture should be designed so it can later be upgraded seamlessly to a Node.js, Express.js, and MongoDB backend. The final result should be deployment-ready, optimized for performance and SEO, and suitable to be showcased as a real-world portfolio project or used as the foundation for an actual restaurant website.

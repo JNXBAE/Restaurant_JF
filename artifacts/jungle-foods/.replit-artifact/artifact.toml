@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Jungle Foods Restaurant"
+version = "1.0.0"
+id = "artifacts/jungle-foods"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22281
+
+[services.development]
+run = "pnpm --filter @workspace/jungle-foods run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/jungle-foods", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/jungle-foods/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22281"
+BASE_PATH = "/"
