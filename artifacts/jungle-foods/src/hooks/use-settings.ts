@@ -12,17 +12,42 @@ export type Settings = {
 };
 
 const defaultSettings: Settings = {
-  whatsappNumber: "919000000000",
-  instagramLink: "https://instagram.com/jungle_foods_",
-  googleMapsLink: "https://www.google.com/maps/place/Jungle+Foods/@11.48287,79.7144424,17z/data=!3m1!4b1!4m6!3m5!1s0x3a54c10026875151:0xef9384b059f8df3b!8m2!3d11.48287!4d79.7144424!16s%2Fg%2F11",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.5!2d79.7144424!3d11.48287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54c10026875151:0xef9384b059f8df3b!2sJungle%20Foods!5e0!3m2!1sen!2sin!4v1",
+  // WhatsApp Number (Country Code +91)
+  whatsappNumber: "919600420706",
+
+  // Instagram Profile
+  instagramLink: "https://www.instagram.com/jungle_foods_?igsh=eWRhaWoxcjNvbzRj",
+
+  // Google Maps Location
+  googleMapsLink:
+    "https://www.google.com/maps/place/FPM7%2B5RJ,+Cuddalore+Chidambaram+Hwy,+Manjakuzhi,+Tamil+Nadu+608501",
+
+  // Google Maps Embed (Replace with actual embed URL if available)
+  googleMapsEmbed:
+    "https://google.com/maps?gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGD0yBggCEEUYPTIGCAMQRRg80gEIMjg4NGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KVFRhyYAwVQ6MTvf-FmwhJPv&daddr=FPM7%2B5RJ,+Cuddalore+Chidambaram+Hwy,+Manjakuzhi,+Tamil+Nadu+608501",
+
+  // Email Address (Replace with your actual email)
   email: "hello@junglefoods.com",
-  phone: "Call us for reservations",
-  address: "Jungle Foods, FPM7+5RJ, Cuddalore Chidambaram Hwy, Manjakuzhi, Tamil Nadu 608501",
-  openingHours: "12:00 PM – 11:00 PM, All Days"
+
+  // Contact Number
+  phone: "+91 96004 20706",
+
+  // Restaurant Address
+  address:
+    "Jungle Foods, FPM7+5RJ, Cuddalore Chidambaram Hwy, Manjakuzhi, Tamil Nadu 608501",
+
+  // Opening Hours
+  openingHours: "10:00 AM - 10:00 PM",
 };
 
 export function useSettings() {
-  const [settings, setSettings] = useLocalStorage<Settings>('jf_settings', defaultSettings);
-  return { settings, setSettings };
+  const [settings, setSettings] = useLocalStorage<Settings>(
+    "jf_settings",
+    defaultSettings
+  );
+
+  return {
+    settings,
+    setSettings,
+  };
 }
