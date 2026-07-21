@@ -108,19 +108,25 @@ export default function ContactPage() {
             </CardContent>
           </Card>
 
-          <div className="flex-1 bg-muted/30 rounded-xl border border-border flex items-center justify-center min-h-[200px] mt-2 relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/40 flex items-center justify-center z-10 backdrop-blur-[2px]">
-               <a 
-                  href={settings.googleMapsLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bg-primary text-primary-foreground px-6 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform"
-                >
-                  View on Map
-                </a>
-            </div>
-            {/* Map placeholder pattern */}
-            <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(hsl(var(--primary)) 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+          <div className="flex-1 rounded-xl border border-border overflow-hidden min-h-[280px] mt-2 relative">
+            <iframe
+              src={settings.googleMapsEmbed || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.5!2d79.7144424!3d11.48287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54c10026875151:0xef9384b059f8df3b!2sJungle%20Foods!5e0!3m2!1sen!2sin!4v1"}
+              width="100%"
+              height="280"
+              style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg)' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Jungle Foods Location"
+            />
+            <a
+              href={settings.googleMapsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute bottom-3 right-3 bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold text-sm shadow-lg hover:scale-105 transition-transform z-10"
+            >
+              Open in Maps
+            </a>
           </div>
         </div>
       </div>
